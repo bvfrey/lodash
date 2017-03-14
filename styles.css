@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: '-apple-system', 'roboto', Helvetica, Arial, sans-serif;
+
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex div {
+    width: 30%;
+    border: 7px solid rgba(223, 173, 42, 0.3);
+    border-radius: 10px;
+    padding: 8px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
